@@ -1,0 +1,14 @@
+//Program 4.2 maximum marks in a given array
+class marks{
+	public static void main(String args[])
+	{
+		int j, max=0;
+		int mark[]={88,84,72,54,67,97,54,25};
+		for(j=0;j<mark.length;j++)
+		{
+			if(max<mark[j])
+				max=mark[j];
+		}
+		System.out.println("maximum "+max);
+	}
+}
